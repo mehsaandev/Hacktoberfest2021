@@ -1,2 +1,2 @@
-# Hacktoverfest2021
-This repo is to help everyone to participate on hacktoberfest 2020.
+# Hacktoverfest2023
+This repo is to help everyone to participate on hacktoberfest 2023.
