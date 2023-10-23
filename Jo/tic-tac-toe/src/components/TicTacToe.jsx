@@ -9,6 +9,10 @@ function TicTacToe() {
     const [playerTurn, setPlayerTurn] = useState(PLAYER_X);
 
     const handleTileClick = (index) => {
+        if (tiles[index] !== null) {
+            return;
+        }
+
         const newTiles = [...tiles];
         newTiles[index] = playerTurn;
         setTiles(newTiles);
