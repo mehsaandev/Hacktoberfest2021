@@ -7,7 +7,7 @@ const Tile = ({className, value, onClick, playerTurn }) => {
     }
   return (
     <div onClick={onClick} className={`tile ${className} ${hoverClass}`}>{value}</div>
-  )
+  );
 }
 
-export default Tile
+export default Tile;
